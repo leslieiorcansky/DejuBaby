@@ -103,12 +103,17 @@ span {
 .cajitaProductos {
   margin: 0 auto;
   padding: 20px;
+  transition: transform 0.3s;
 }
 
 .cajitaProductos a img {
   width: 300px;
   height: 300px;
   border: #bf935e inset 2px;
+}
+
+.cajitaProductos:hover {
+  transform: translateY(-15px);
 }
 
 /* PAGINA CONTACTO */
