@@ -1,0 +1,546 @@
+@font-face {
+  font-family: "Kage Thin";
+  src: url(../font/FontsFree-Net-Kage-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #b9d8cb;
+  color: #bf935e;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* BOTON WHATSAPP */
+/* .botonWhatsapp img {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+} */
+
+/* HEADER */
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+span {
+  display: none;
+}
+
+.navegacionHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+.navegacionHeader ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.navegacionHeader ul li a {
+  color: #bf935e;
+  font-weight: bold;
+  border-bottom: solid 1px;
+}
+
+.tamañoLogoHeader {
+  width: 120px;
+  height: 120px;
+}
+
+/* PAGINA INDEX*/
+.bannerInicio {
+  background-image: url(../img/banner-main.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bannerInicio h1 {
+  display: flex;
+  font-family: "Kage Thin";
+  font-size: 5rem;
+  letter-spacing: 5px;
+  margin-left: 5rem;
+  color: #bf8339;
+  font-weight: bold;
+  text-align: center;
+  justify-items: center;
+}
+
+.productosInicio {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+}
+
+.cajitaProductos {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cajitaProductos a img {
+  width: 300px;
+  height: 300px;
+  border: #bf935e inset 2px;
+}
+
+/* PAGINA CONTACTO */
+.tituloPaginaContacto {
+  font-size: 4rem;
+  font-weight: 900;
+  height: 10rem;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background-image: url(../img/blob.svg);
+  background-repeat: no-repeat;
+  margin-bottom: -50px;
+}
+
+.contactoFormulario {
+  display: flex;
+  max-width: 50vh;
+  margin: 0 auto;
+}
+
+.contactoFormulario form div {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.cajitaFormulario {
+  width: 85%;
+  padding: 20px;
+  margin: 2px 5px;
+}
+
+.botonForm {
+  font-family: "Poppins";
+  background-color: #d5b690;
+  color: #bf8339;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: #b9d8cb 2px solid;
+  border-radius: 8px;
+  width: 150px;
+  margin: 0% auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* PAGINA POLITICAS DE CAMBIO */
+.tituloPaginaPoliticas {
+  font-size: 4rem;
+  font-weight: 900;
+  height: 10rem;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background-image: url(../img/blob.svg);
+  background-repeat: no-repeat;
+  margin-bottom: -50px;
+}
+
+.politicasDeCambio {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.politicasDeCambio h2 {
+  margin-top: 20px;
+}
+
+.politicasDeCambio h3 {
+  margin-top: 20px;
+}
+
+.politicasDeCambio p {
+  margin-top: 20px;
+}
+
+.politicasDeCambio ul li {
+  margin-top: 20px;
+}
+
+.politicasAclaracion {
+  margin-bottom: 30px;
+}
+
+/* PAGINA PRODUCTOS */
+.tituloPaginaProductos {
+  font-size: 4rem;
+  font-weight: 900;
+  height: 10rem;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background-image: url(../img/blob.svg);
+  background-repeat: no-repeat;
+  margin-bottom: -50px;
+}
+
+/* TARJETAS PAGINA PRODUCTOS */
+.tarjeta {
+  background-color: #fff;
+  padding: 20px;
+  /* width: 400px; */
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.tarjetaHeader {
+  position: relative;
+}
+
+.tarjetaHeader img {
+  width: 100%;
+  border-radius: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.productos {
+  margin-top: 40px;
+}
+
+.productosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+/* FOOTER */
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #d5b690;
+  color: #bf8339;
+  justify-content: space-around;
+  height: 7rem;
+  justify-items: center;
+  align-items: center;
+  border-top: #b9d8cb 2px solid;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+footer h2 p {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.cajitaFooter img {
+  width: 50px;
+  height: 50px;
+}
+
+.cajitaFooter a img {
+  width: 50px;
+  height: 50px;
+}
+
+
+/* MEDIA QUERIE */
+
+/* MEDIA HEADER - FOOTER*/
+@media (max-width: 1000px) {
+  .media li {
+    display: none;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  footer {
+    width: 110%;
+  }
+}
+
+/* MEDIA INDEX */
+@media (max-width: 1032px) {
+  .productosInicio {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 990px) {
+  .bannerInicio {
+    display: none;
+    /* background-image: url(../img/banner-main.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* overflow: visible; */
+  }
+
+  .bannerInicio h1 {
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 454px) {
+  .productosInicio {
+    margin: 7px;
+  }
+}
+
+@media (max-width: 320px) {
+  .productosInicio {
+    margin: 7px;
+  }
+}
+
+/* MEDIA PRODUCTOS */
+@media (max-width: 1230px) {
+  .productosGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    width: 120vh;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 805px) {
+  .productosGrid {
+    grid-template-columns: 1fr;
+    width: 50vh;
+    justify-content: center;
+  }
+
+  .tarjeta {
+    width: 60vh;
+  }
+
+  .tituloPaginaProductos {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .productosGrid {
+    grid-template-columns: 1fr;
+    width: 40vh;
+    justify-content: center;
+  }
+
+  .tarjeta {
+    width: 50vh;
+  }
+
+  .tituloPaginaProductos {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .productosGrid {
+    grid-template-columns: 1fr;
+    width: 40vh;
+    justify-content: center;
+  }
+
+  .tarjeta {
+    width: 50vh;
+  }
+
+  .tituloPaginaProductos {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .productosGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 40vh;
+    margin: 50px;
+  }
+
+  .tarjeta {
+    width: 45vh;
+  }
+
+  .tituloPaginaProductos {
+      font-size: 3rem;
+      background-size: 20vh ;
+  }
+}
+
+
+/* MEDIA POLITICAS DE CAMBIO */
+@media (max-width: 676px) {
+  .tituloPaginaPoliticas {
+    font-size: 55px;
+    background-size: 20vh ;
+  }
+}
+
+@media (max-width: 585px) {
+  .tituloPaginaPoliticas {
+    font-size: 50px;
+    background-size: 15vh ;
+  }
+}
+
+@media (max-width: 532px) {
+  .tituloPaginaPoliticas {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 426px) {
+  .tituloPaginaPoliticas {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 368px) {
+  .tituloPaginaPoliticas {
+    font-size: 30px;
+    background-size: 10vh ;
+  }
+}
+
+@media (max-width: 320px) {
+  .politicasDeCambio {
+    text-align: center;
+    margin-left: 20px;
+  }
+}
+
+
+/* MEDIA CONTACTO */
+@media (max-width: 800px) {
+  .tituloPaginaContacto {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 749px) {
+  .tituloPaginaContacto {
+    font-size: 55px;
+    background-size: 20vh ;
+  }
+}
+
+@media (max-width: 685px) {
+  .tituloPaginaContacto {
+    font-size: 50px;
+  }
+}
+@media (max-width: 657px) {
+  .tituloPaginaContacto {
+    font-size: 40px;
+  }
+
+  .contactoFormulario form div {
+    width: 50vh;
+    margin-left: 20px;
+  }
+
+  .botonForm {
+    width: 100px;
+  }
+}
+@media (max-width: 625px) {
+  .tituloPaginaContacto {
+    font-size: 45px;
+  }
+}
+
+  @media (max-width: 569px) {
+    .tituloPaginaContacto {
+      font-size: 40px;
+      background-size: 15vh ;
+    }
+  }
+
+  @media (max-width: 502px) {
+    .tituloPaginaContacto {
+      font-size: 35px;
+      background-size: 17vh;
+    }
+  }
+
+  @media (max-width: 436px) {
+    .tituloPaginaContacto {
+      font-size: 20px;
+    }
+  }
+
+  .contactoFormulario form div {
+    width: 50vh;
+    margin-left: 20px;
+  }
+
+  .botonForm {
+    width: 100px;
+  }  
+
+@media (max-width: 443px) {
+  .tituloPaginaContacto {
+    font-size: 35px;
+    background-size: contain;
+  }
+
+  .contactoFormulario form div {
+    width: 50vh;
+    margin-left: 20px;
+  }
+
+  .botonForm {
+    width: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    width: 110%;
+  }
+}
