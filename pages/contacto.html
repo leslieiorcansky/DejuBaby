@@ -7,21 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEJU BABY</title>
     <link rel="shortcut icon" href="../img/DEJU-LOGOTIPO.png" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
-    <header>
-        <nav class="navegacionHeader">
-            <a href="../index.html"><img src="../img/DEJU-LOGOTIPO.png" alt="marca" class="tamañoLogoHeader" /></a>
-            <ul class="media">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/politicas.html">Politicas de Cambio</a></li>
-            </ul>
-            <span>🍔</span> 
+    <header class="sticky-top container-fluid">
+        <nav class="navbar navbar-expand-md bgWhite container tipografiaNav">
+          <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/DEJU-LOGOTIPO.png" alt="logo" width="120" height="120">
+              </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto fw-bold">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/productos.html">Productos</a>
+                </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/politicas.html">Politicas de cambio</a>
+            </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
+      </header>
     <main>
         <section>
             <h1 class="tituloPaginaContacto">¡SIGAMOS EN CONTACTO!</h1>
