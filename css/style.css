@@ -598,3 +598,15 @@ footer h2 p {
     width: 110%;
   }
 }
+
+.bgWhite {
+  background-color: #fff;
+}
+
+.tipografiaNav a {
+  color: #bf935e;
+}
+
+.tipografiaNav a:hover {
+  color: #bf935e;
+}
