@@ -209,6 +209,15 @@ span {
   width: 150px;
   margin: 10px auto;
 }
+.BotonFormBootstrap {
+  font-family: "Poppins";
+  background-color: #d5b690;
+  color: #bf8339;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: #b9d8cb 2px solid;
+  border-radius: 8px;
+}
 
 /* PAGINA POLITICAS DE CAMBIO */
 .tituloPaginaPoliticas {
