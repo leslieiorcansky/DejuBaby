@@ -253,6 +253,7 @@ span {
   font-size: 4rem;
   font-weight: 900;
   height: 10rem;
+  width: 100%;
   color: transparent;
   -webkit-text-stroke: 1px white;
   background-image: url(../img/blob.svg);
