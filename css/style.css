@@ -324,9 +324,52 @@ footer h2 p {
   height: 50px;
 }
 
+/* AGREGADOS CON BOOTSTRAP */
+
+.bgWhite {
+  background-color: #fff;
+}
+
+.tipografiaNav a {
+  color: #bf935e;
+}
+
+.tipografiaNav a:hover {
+  color: #bf935e;
+}
+
+.bannerBoots {
+  font-family: "Kage Thin";
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #bf8339;
+  font-weight: bold;
+}
+
+
+
+/* MEDIA QUERIE CON BOOTSTRAP */
+
+@media (max-width: 767px) {
+  .bannerBoots {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 557px) {
+  .bannerBoots {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .bannerBoots {
+    font-size: 1.5rem;
+  }
+}
 
 /* MEDIA QUERIE */
-
 /* MEDIA HEADER - FOOTER*/
 @media (max-width: 1000px) {
   .media li {
@@ -597,16 +640,4 @@ footer h2 p {
   header {
     width: 110%;
   }
-}
-
-.bgWhite {
-  background-color: #fff;
-}
-
-.tipografiaNav a {
-  color: #bf935e;
-}
-
-.tipografiaNav a:hover {
-  color: #bf935e;
 }
