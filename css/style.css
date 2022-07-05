@@ -27,14 +27,6 @@ body {
   margin: 0 auto;
 }
 
-/* BOTON WHATSAPP */
-/* .botonWhatsapp img {
-  width: 40px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-} */
-
 /* HEADER */
 header {
   background-color: white;
@@ -371,8 +363,6 @@ footer h3 p {
   color: #bf8339;
   font-weight: bold;
 }
-
-
 
 /* MEDIA QUERIE CON BOOTSTRAP */
 
