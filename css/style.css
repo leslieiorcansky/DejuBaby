@@ -38,9 +38,30 @@ header {
   z-index: 10;
 }
 
-span {
-  display: none;
+.contentNavbar {
+  display: flex;
+  align-items: center;
 }
+
+.contentNavbar li {
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.contentNavbar li:active {
+  transform: scale(0.9);
+}
+
+.contentNavbar li a {
+  color: #bf8339;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contentNavbar li a:hover {
+  color: #bfbfbf;
+}
+
 
 .navegacionHeader {
   display: flex;
@@ -284,29 +305,12 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   background-color: #d5b690;
   color: #bf8339;
-  justify-content: space-around;
-  height: auto;
-  justify-items: center;
-  align-items: center;
-  border-top: #b9d8cb 1px solid;
   font-size: 12px;
   font-weight: bold;
-  letter-spacing: 1px;
-  word-spacing: 1px;
   text-align: center;
 }
 footer img {
   margin-top: 20px;
-}
-
-footer h3 {
-  margin-top: 30px;
-}
-
-footer h3 p {
-  display: flex;
-  justify-items: center;
-  align-items: center;
 }
 
 .cajitaFooter img {
@@ -367,7 +371,7 @@ footer h3 p {
   }
 
   .productosGrid {
-    grid-template-columns: 1fr;   
+    grid-template-columns: 1fr;
 }
 
 
