@@ -300,28 +300,37 @@ header {
 }
 
 /* FOOTER */
-footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+ .cajitaFooter {
   background-color: #d5b690;
   color: #bf8339;
-  font-size: 12px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+.footerGrid h3, p {
+  color: #bf8339;
+  margin-bottom: 20px;
   font-weight: bold;
-  text-align: center;
-}
-footer img {
-  margin-top: 20px;
+  justify-content: center;
 }
 
-.cajitaFooter img {
-  width: 50px;
-  height: 50px;
+.footerRrss {
+  margin-top: 30px;
 }
 
-.cajitaFooter a img {
-  width: 50px;
-  height: 50px;
+.footerRrss a {
+  color:black;
+  font-size: 30px;
+  transition: color 0.3s;
 }
+
+.footerRrss a:hover {
+  color: #bf8339;
+} 
 
 /* AGREGADOS CON BOOTSTRAP */
 
@@ -353,10 +362,8 @@ footer img {
 }
 
 @media (max-width: 1000px) {
-  footer {
+  .footerGrid {
     grid-template-columns: 1fr;
-    height: auto;
-    gap: 10px;
   }
 }
 @media (max-width: 829px) {
