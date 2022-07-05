@@ -53,13 +53,14 @@ header {
 }
 
 .contentNavbar li a {
-  color: #bf8339;
+  color: black;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .contentNavbar li a:hover {
-  color: #bfbfbf;
+  color: #bf8339;
+  font-weight: bold;
 }
 
 
@@ -428,6 +429,13 @@ header {
 @media (max-width: 345px) {
   .tituloPaginaContacto {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bannerBoots {
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
 
