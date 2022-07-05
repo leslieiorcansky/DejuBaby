@@ -199,16 +199,20 @@ span {
 
 .botonForm {
   font-family: "Poppins";
-  background-color: #d5b690;
-  color: #bf8339;
+  background-color: #bf8339;
+  color: #e2e8f0;
   padding: 10px;
   text-transform: uppercase;
   font-weight: bold;
   border: #b9d8cb 2px solid;
   border-radius: 8px;
-  width: 150px;
   margin: 10px auto;
 }
+
+.botonForm:hover {
+  background-color: #bd9b71;
+}
+
 .BotonFormBootstrap {
   font-family: "Poppins";
   background-color: #d5b690;
@@ -217,6 +221,11 @@ span {
   font-weight: bold;
   border: #b9d8cb 2px solid;
   border-radius: 8px;
+}
+
+.BotonFormBootstrap:hover {
+  background-color: #d5b690;
+  color: #bf8339;
 }
 
 /* PAGINA POLITICAS DE CAMBIO */
