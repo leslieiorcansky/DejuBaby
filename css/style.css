@@ -108,6 +108,10 @@ header {
   text-align: center;
   justify-items: center;
 } */
+.marginImg {
+  margin-top: 20px;
+}
+
 .bannerBoots {
   font-family: "Kage Thin";
   font-size: 5rem;
