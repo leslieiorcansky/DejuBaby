@@ -90,14 +90,14 @@ header {
 }
 
 /* PAGINA INDEX*/
-.bannerInicio {
+/* .bannerInicio {
   background-image: url(../img/banner-main.jpg);
   height: 70vh;
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
-.bannerInicio h1 {
+/* .bannerInicio h1 {
   display: flex;
   font-family: "Kage Thin";
   font-size: 5rem;
@@ -107,6 +107,13 @@ header {
   font-weight: bold;
   text-align: center;
   justify-items: center;
+} */
+.bannerBoots {
+  font-family: "Kage Thin";
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #bf8339;
+  font-weight: bold;
 }
 
 .productosInicio {
@@ -340,19 +347,11 @@ header {
 }
 
 .tipografiaNav a {
-  color: #bf935e;
+  color: black;
 }
 
 .tipografiaNav a:hover {
   color: #bf935e;
-}
-
-.bannerBoots {
-  font-family: "Kage Thin";
-  font-size: 5rem;
-  letter-spacing: 5px;
-  color: #bf8339;
-  font-weight: bold;
 }
 
 /* MEDIA QUERIE*/
