@@ -85,9 +85,11 @@ header {
 }
 
 .tamañoLogoHeader {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
+
+  
 
 /* PAGINA INDEX*/
 /* .bannerInicio {
@@ -108,17 +110,17 @@ header {
   text-align: center;
   justify-items: center;
 } */
-.marginImg {
+/* .marginImg {
   margin-top: 20px;
-}
+} */
 
-.bannerBoots {
+/* .bannerBoots {
   font-family: "Kage Thin";
   font-size: 5rem;
   letter-spacing: 5px;
   color: #bf8339;
   font-weight: bold;
-}
+} */
 
 .productosInicio {
   /* display: grid;
@@ -181,7 +183,7 @@ header {
   background-color: #bf935e;
 }
 
-.pagoEfectivoImg {
+.EfectivoImg {
   /* width: 100%; */
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);

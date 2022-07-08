@@ -2,127 +2,142 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DEJU BABY</title>
-    <link rel="shortcut icon" href="./img/DEJU-LOGOTIPO.png" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEJU BABY</title>
+  <link rel="shortcut icon" href="./img/DEJU-LOGOTIPO.png" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-    <header class="sticky-top container-fluid">
-        <nav class="navbar navbar-expand-md bgWhite container tipografiaNav">
-            <div class="container">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="img/DEJU-LOGOTIPO.png" alt="logo" width="120" height="120">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto fw-bold contentNavbar">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/politicas.html">Politicas de cambio</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <header class="sticky-top container-fluid">
+    <nav class="navbar navbar-expand-md bgWhite container tipografiaNav">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="img/DEJU-LOGOTIPO.png" alt="logo" width="120" height="120">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold contentNavbar">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/politicas.html">Politicas de cambio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section class="container position-relative">
-        <img src="./img/banner-main.jpg" class="img-fluid marginImg" alt="banner" height="800">
-            <h1 class="position-absolute top-0 start-2 ms-5 mt-5 pt-5 bannerBoots">
-                Coleccion <br />
-                Otoño & <br />
-                invierno <br />
-                2022
-            </h1>
-        </section>
+  <main>
 
-        <section>
-            <div class="container productosInicio">
-              <div class="row text-center">
-            <div class="col-sm-12 col-lg-4 my-5 cajitaProductos">
-                <a href="./pages/productos.html"><img src="./img/1.png" width="300" height="300" alt="DEJU BB" /></a>
-            </div>
-            <div class="col-sm-12 col-lg-4 my-5 cajitaProductos">
-                <a href="./pages/productos.html"><img src="./img/2.png" width="300" height="300" alt="DEJU GIRL" /></a>
-            </div>
-            <div class="col-sm-12 col-lg-4 my-5 cajitaProductos">
-                <a href="./pages/productos.html"><img src="./img/3.png" width="300" height="300" alt="DEJU BOY" /></a>
-            </div>
-            </div>
-            </div>
-        </section>
+    <section class="container mt-5">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner-main.jpg" class="d-block w-100" alt="foto1">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/foto-carrusel1.jpg" class="d-block w-100" alt="foto2">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/foto-carrusel2.jpg" class="d-block w-100" alt="foto3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-        <section class="mt-5 pagoEfectivo">
+    <section>
+      <div class="container productosInicio">
+        <div class="row text-center">
+          <div class="col-sm-12 col-lg-4 my-5 cajitaProductos">
+            <a href="./pages/productos.html"><img src="./img/1.png" width="300" height="300" alt="DEJU BB" /></a>
+          </div>
+          <div class="col-sm-12 col-lg-4 my-5 cajitaProductos">
+            <a href="./pages/productos.html"><img src="./img/2.png" width="300" height="300" alt="DEJU GIRL" /></a>
+          </div>
+          <div class="col-sm-12 col-lg-4 my-5 cajitaProductos">
+            <a href="./pages/productos.html"><img src="./img/3.png" width="300" height="300" alt="DEJU BOY" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pagoEfectivo">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-5 text-center pagoEfectivoGridContenido">
-                <h1>10% off pagando en efectivo</h1>
-                <p>No acumulable con otras promociones</p>
-                <a href="./pages/contacto.html" class="text-decoration-none">Dejanos tu mensaje</a>
+            <h1>10% off pagando en efectivo</h1>
+            <p>No acumulable con otras promociones</p>
+            <a href="./pages/contacto.html" class="text-decoration-none">Dejanos tu mensaje</a>
           </div>
           <div class="col-sm-12 col-xl-6 my-5 text-center">
             <img src="./img/imagen-index2.jpg" class="sacarFoto pagoEfectivoImg" width="450" height="350" alt="" />
-            </div>
-            </div>
-            </div>
-        </section>
-    </main>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer class="cajitaFooter text-center">
-        <div class="footerGrid container">
-                <div class="footerRrss container">
-                    <a href="https://www.instagram.com/leslieior/">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <h3>Instagram</h3>
-                    <p>@dejubaby</p>
-                </div>
-                <div class="footerRrss container">
-                    <a href="https://wa.me/5491167031991">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-                    <h3>Whatsapp</h3>
-                    <p>+54 911 6703 1991</p>
-                </div>
-                <div class="footerRrss container">
-                    <a href="">
-                        <i class="bi bi-envelope-fill"></i>
-                      </a>
-                    <h3>Email</h3>
-                    <p>dejubaby@gmail.com</p>
-                </div>
-                <div class="footerRrss container">
-                    <a href="">
-                        <i class="bi bi-house-door-fill"></i>            
-                    </a>
-                    <h3>Showroom</h3>
-                    <p>Villa Crespo. Capital Federal</p>
-                </div>
-            </div>
-    </footer>
-
-    <div class="position-fixed bottom-0 end-0 mb-5 me-4">
-        <a href="https://wa.me/5491167031991"><img
-                src="https://cdn.iconscout.com/icon/free/png-512/whatsapp-circle-1868968-1583132.png" alt="Whatsapp"
-                width="50" height="50" />
+  <footer class="cajitaFooter text-center">
+    <div class="footerGrid container">
+      <div class="footerRrss container">
+        <a href="https://www.instagram.com/leslieior/">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <h3>Instagram</h3>
+        <p>@dejubaby</p>
+      </div>
+      <div class="footerRrss container">
+        <a href="https://wa.me/5491167031991">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <h3>Whatsapp</h3>
+        <p>+54 911 6703 1991</p>
+      </div>
+      <div class="footerRrss container">
+        <a href="">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+        <h3>Email</h3>
+        <p>dejubaby@gmail.com</p>
+      </div>
+      <div class="footerRrss container">
+        <a href="">
+          <i class="bi bi-house-door-fill"></i>
+        </a>
+        <h3>Showroom</h3>
+        <p>Villa Crespo. Capital Federal</p>
+      </div>
     </div>
+  </footer>
+
+  <div class="position-fixed bottom-0 end-0 mb-5 me-4">
+    <a href="https://wa.me/5491167031991"><img
+        src="https://cdn.iconscout.com/icon/free/png-512/whatsapp-circle-1868968-1583132.png" alt="Whatsapp" width="50"
+        height="50" />
+  </div>
 </body>
 
 </html>
