@@ -63,7 +63,6 @@ header {
   font-weight: bold;
 }
 
-
 .navegacionHeader {
   display: flex;
   flex-direction: column;
@@ -89,50 +88,12 @@ header {
   height: 100px;
 }
 
-  
-
-/* PAGINA INDEX*/
-/* .bannerInicio {
-  background-image: url(../img/banner-main.jpg);
-  height: 70vh;
-  background-size: cover;
-  background-attachment: fixed;
-} */
-
-/* .bannerInicio h1 {
-  display: flex;
-  font-family: "Kage Thin";
-  font-size: 5rem;
-  letter-spacing: 5px;
-  margin-left: 5rem;
-  color: #bf8339;
-  font-weight: bold;
-  text-align: center;
-  justify-items: center;
-} */
-/* .marginImg {
-  margin-top: 20px;
-} */
-
-/* .bannerBoots {
-  font-family: "Kage Thin";
-  font-size: 5rem;
-  letter-spacing: 5px;
-  color: #bf8339;
-  font-weight: bold;
-} */
-
 .productosInicio {
-  /* display: grid;
-  grid-template-columns: repeat(3, 0.5fr); */
-  /* height: 600px; */
   justify-content: center;
-  background-color: linear-gradient(60deg,#b9d8cb,#e2e8f0);
+  background-color: linear-gradient(60deg, #b9d8cb, #e2e8f0);
 }
 
 .cajitaProductos {
-  /* margin: 0 auto; */
-  /* padding: 20px; */
   transition: transform 0.3s;
 }
 
@@ -149,13 +110,12 @@ header {
 /* HERO */
 .pagoEfectivo {
   background-image: linear-gradient(45deg, #bfbfbf, #bf935e);
-  /* padding: 40px 20px; */
   color: #e2e8f0;
 }
 
 .pagoEfectivoGrid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   align-items: center;
 }
@@ -184,7 +144,6 @@ header {
 }
 
 .EfectivoImg {
-  /* width: 100%; */
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
   transition: transform 0.3s;
@@ -262,7 +221,9 @@ header {
   margin-top: 30px;
 }
 
-.politicasDeCambio h3, p, ul li {
+.politicasDeCambio h3,
+p,
+ul li {
   margin-top: 20px;
 }
 
@@ -287,7 +248,6 @@ header {
 .tarjeta {
   background-color: #fff;
   padding: 20px;
-  /* width: 400px; */
   border-radius: 20px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
@@ -300,7 +260,6 @@ header {
 .tarjetaHeader img {
   width: 100%;
   border-radius: 10px;
-  /* margin-bottom: 20px; */
 }
 
 .productos {
@@ -314,18 +273,19 @@ header {
 }
 
 /* FOOTER */
- .cajitaFooter {
+.cajitaFooter {
   background-color: #d5b690;
   color: #bf8339;
 }
 
 .footerGrid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
-.footerGrid h3, p {
+.footerGrid h3,
+p {
   color: #bf8339;
   margin-bottom: 20px;
   font-weight: bold;
@@ -337,14 +297,14 @@ header {
 }
 
 .footerRrss a {
-  color:black;
+  color: black;
   font-size: 30px;
   transition: color 0.3s;
 }
 
 .footerRrss a:hover {
   color: #bf8339;
-} 
+}
 
 /* AGREGADOS CON BOOTSTRAP */
 
@@ -379,17 +339,12 @@ header {
 }
 
 @media (max-width: 768px) {
-  .bannerBoots {
-    font-size: 3rem;
-  }
-
   .productosGrid {
     grid-template-columns: 1fr;
-}
-
+  }
 
   .tituloPaginaPoliticas {
-      font-weight: 600;
+    font-weight: 600;
   }
 
   .politicasDeCambio h2 {
@@ -399,13 +354,6 @@ header {
   .tituloPaginaContacto {
     font-size: 50px;
     height: 100px;
-  }
-}
-
-@media (max-width: 557px) {
-  .bannerBoots {
-    font-size: 2rem;
-    margin-top: 0;
   }
 }
 
@@ -419,9 +367,6 @@ header {
 }
 
 @media (max-width: 400px) {
-  .bannerBoots {
-    font-size: 1.5rem;
-  }
   .tituloPaginaProductos {
     font-size: 50px;
     font-weight: 600;
@@ -436,12 +381,3 @@ header {
     font-size: 40px;
   }
 }
-
-@media (max-width: 320px) {
-  .bannerBoots {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-}
-
-
