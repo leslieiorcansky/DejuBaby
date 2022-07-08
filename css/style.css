@@ -339,6 +339,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  header {
+    height: 20rem;
+  }
   .productosGrid {
     grid-template-columns: 1fr;
   }
