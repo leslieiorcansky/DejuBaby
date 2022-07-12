@@ -1,0 +1,40 @@
+.tituloPaginaProductos {
+    font-size: 4rem;
+    font-weight: 900;
+    height: 10rem;
+    width: 100%;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
+  }
+  
+
+  .tarjeta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+    &Header {
+      position: relative;
+
+      & img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+  
+  .productos {
+    margin-top: 40px;
+
+    &Grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+    }
+  }
+  

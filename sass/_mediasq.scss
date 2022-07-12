@@ -1,0 +1,65 @@
+
+@media (max-width: 1032px) {
+    .productosInicio {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .footerGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 829px) {
+    .tituloPaginaContacto {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      height: 20rem;
+    }
+    .productosGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .tituloPaginaPoliticas {
+      font-weight: 600;
+    }
+  
+    .politicasDeCambio h2 {
+      margin-top: 40px;
+    }
+  
+    .tituloPaginaContacto {
+      font-size: 50px;
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 468px) {
+    .sacarFoto {
+      display: none;
+    }
+    .tituloPaginaPoliticas {
+      font-size: 50px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .tituloPaginaProductos {
+      font-size: 50px;
+      font-weight: 600;
+    }
+    .tituloPaginaContacto {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 345px) {
+    .tituloPaginaContacto {
+      font-size: 40px;
+    }
+  }
+  

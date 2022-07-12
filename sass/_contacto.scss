@@ -1,0 +1,28 @@
+.tituloPaginaContacto {
+    font-size: 4rem;
+    font-weight: 900;
+    height: 10rem;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
+  }
+    
+  .botonForm {
+    font-family: "Poppins";
+    background-color: #bf8339;
+    color: #e2e8f0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: #b9d8cb 2px solid;
+    border-radius: 8px;
+    margin: 10px auto;
+
+    &:hover {
+      background-color: #bd9b71;
+    }
+  }
+  
+ 

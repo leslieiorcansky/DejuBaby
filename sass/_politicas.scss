@@ -1,0 +1,28 @@
+.tituloPaginaPoliticas {
+    font-size: 4rem;
+    font-weight: 900;
+    height: 10rem;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
+  }
+  
+  .politicasDeCambio {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+    & h2 {
+      margin-top: 30px;
+    }
+    
+    & h3, p, ul, li {
+      margin-top: 20px;
+    }
+  }
+  
+  .politicasAclaracion {
+    margin-bottom: 30px;
+  }

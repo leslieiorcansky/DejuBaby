@@ -1,0 +1,39 @@
+.footer {
+    background-color: #d5b690;
+    color: $colorPrincipal;
+
+    &Grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+
+      & h3 {
+        color: $colorPrincipal;
+        margin-bottom: 20px;
+        font-weight: bold;
+        justify-content: center;
+      }
+
+      & p {
+        color: $colorPrincipal;
+        margin-bottom: 20px;
+        font-weight: bold;
+        justify-content: center;
+      }
+    }
+  }
+    
+  .footerRrss {
+    margin-top: 30px;
+
+    & a {
+      color: black;
+      font-size: 30px;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $colorPrincipal;
+      }
+    }
+  }
+  

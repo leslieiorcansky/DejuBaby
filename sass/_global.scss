@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Kage Thin";
+    src: url(../font/FontsFree-Net-Kage-Thin.ttf);
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Poppins";
+    background-color: #b9d8cb;
+    color: #bf935e;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }

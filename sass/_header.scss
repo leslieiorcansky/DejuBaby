@@ -1,0 +1,59 @@
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .contentNavbar {
+    display: flex;
+    align-items: center;
+
+    & li {
+      margin: 0 15px;
+      transition: transform 0.3s;
+
+      &:active {
+        transform: scale(0.9);
+      }
+      & a {
+        color: black;
+        font-weight: bold;
+        transition: color 0.3s;
+
+        &:hover {
+          color: $colorPrincipal;
+          font-weight: bold;
+        }      
+      }
+    }
+  }
+  
+  
+  .navegacionHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+
+    & ul {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+
+      & li a {
+        color: #bf935e;
+        font-weight: bold;
+        border-bottom: solid 1px;
+      }
+    }
+  }
+  
+  .tamañoLogoHeader {
+    width: 100px;
+    height: 100px;
+  }
