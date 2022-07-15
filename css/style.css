@@ -227,7 +227,8 @@ header {
 
 @media (max-width: 768px) {
   header {
-    height: 20rem; }
+    height: 16rem;
+    position: static; }
   .productosGrid {
     grid-template-columns: 1fr; }
   .tituloPaginaPoliticas {
