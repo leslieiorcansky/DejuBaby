@@ -12,8 +12,6 @@
     }
 
     & a img {
-      width: 300px;
-      height: 300px;
       border: #bf935e solid 2px;
     }
   }
@@ -64,4 +62,15 @@
     &:hover {
       transform: rotate(5deg);
     }
+  }
+
+  @mixin tituloBase {
+    font-size: 4rem;
+    font-weight: 900;
+    height: 10rem;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
   }

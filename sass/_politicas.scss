@@ -1,12 +1,5 @@
 .tituloPaginaPoliticas {
-    font-size: 4rem;
-    font-weight: 900;
-    height: 10rem;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-    background-image: url(../img/blob.svg);
-    background-repeat: no-repeat;
-    margin-bottom: -50px;
+  @include tituloBase;
   }
   
   .politicasDeCambio {

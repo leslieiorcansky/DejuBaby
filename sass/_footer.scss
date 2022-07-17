@@ -8,17 +8,11 @@
       gap: 30px;
 
       & h3 {
-        color: $colorPrincipal;
-        margin-bottom: 20px;
-        font-weight: bold;
-        justify-content: center;
+        @extend .footerBase;
       }
 
       & p {
-        color: $colorPrincipal;
-        margin-bottom: 20px;
-        font-weight: bold;
-        justify-content: center;
+        @extend .footerBase;
       }
     }
   }
@@ -35,5 +29,12 @@
         color: $colorPrincipal;
       }
     }
+  }
+
+  .footerBase {
+    color: $colorPrincipal;
+    margin-bottom: 20px;
+    font-weight: bold;
+    justify-content: center;
   }
   

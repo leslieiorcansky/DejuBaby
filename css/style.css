@@ -76,8 +76,6 @@ header {
   .cajitaProductos:hover {
     transform: translateY(-15px); }
   .cajitaProductos a img {
-    width: 300px;
-    height: 300px;
     border: #bf935e solid 2px; }
 
 .pagoEfectivo {
@@ -160,7 +158,6 @@ header {
   font-size: 4rem;
   font-weight: 900;
   height: 10rem;
-  width: 100%;
   color: transparent;
   -webkit-text-stroke: 1px white;
   background-image: url(../img/blob.svg);
@@ -193,16 +190,6 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px; }
-    .footerGrid h3 {
-      color: #bf8339;
-      margin-bottom: 20px;
-      font-weight: bold;
-      justify-content: center; }
-    .footerGrid p {
-      color: #bf8339;
-      margin-bottom: 20px;
-      font-weight: bold;
-      justify-content: center; }
 
 .footerRrss {
   margin-top: 30px; }
@@ -212,6 +199,12 @@ header {
     transition: color 0.3s; }
     .footerRrss a:hover {
       color: #bf8339; }
+
+.footerBase, .footerGrid h3, .footerGrid p {
+  color: #bf8339;
+  margin-bottom: 20px;
+  font-weight: bold;
+  justify-content: center; }
 
 @media (max-width: 1032px) {
   .productosInicio {
@@ -223,7 +216,8 @@ header {
 
 @media (max-width: 829px) {
   .tituloPaginaContacto {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px;
+    font-size: 3rem; } }
 
 @media (max-width: 768px) {
   header {
