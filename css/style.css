@@ -114,7 +114,7 @@ header {
   font-weight: 900;
   height: 10rem;
   color: transparent;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px #fff;
   background-image: url(../img/blob.svg);
   background-repeat: no-repeat;
   margin-bottom: -50px; }
@@ -179,7 +179,7 @@ header {
   font-weight: 900;
   height: 10rem;
   color: transparent;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px #fff;
   background-image: url(../img/blob.svg);
   background-repeat: no-repeat;
   margin-bottom: -50px; }
@@ -201,7 +201,7 @@ header {
   font-weight: 900;
   height: 10rem;
   color: transparent;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px #fff;
   background-image: url(../img/blob.svg);
   background-repeat: no-repeat;
   margin-bottom: -50px; }
@@ -232,6 +232,11 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px; }
+    .footerGrid h3 {
+      color: #bf8339; }
+    .footerGrid p {
+      color: #bf935e;
+      font-style: italic; }
 
 .footerRrss {
   margin-top: 30px; }
@@ -243,7 +248,6 @@ header {
       color: #bf8339; }
 
 .footerBase, .footerGrid h3, .footerGrid p {
-  color: #bf8339;
   margin-bottom: 20px;
   font-weight: bold;
   justify-content: center; }

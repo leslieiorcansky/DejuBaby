@@ -9,10 +9,13 @@
 
       & h3 {
         @extend .footerBase;
+        color: $colorPrincipal;
       }
 
       & p {
         @extend .footerBase;
+        color: #bf935e;
+        font-style: italic;
       }
     }
   }
@@ -32,7 +35,6 @@
   }
 
   .footerBase {
-    color: $colorPrincipal;
     margin-bottom: 20px;
     font-weight: bold;
     justify-content: center;
