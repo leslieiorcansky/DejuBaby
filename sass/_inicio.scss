@@ -1,8 +1,16 @@
+.productos {
+  font-family: "Kage Thin";
+  font-weight: bold;
+  font-size: 5rem;
+  color: transparent;
+  -webkit-text-stroke: 1px $colorPrincipal;
+  margin-top: 50px;
 
-.productosInicio {
+  &Inicio {
     justify-content: center;
     background-color: linear-gradient(60deg, #b9d8cb, #e2e8f0);
   }
+}
   
   .cajitaProductos {
     transition: transform 0.3s;
@@ -29,7 +37,7 @@
       gap: 50px;
       align-items: center;
 
-      &Contenido h1 {
+      &Contenido h2 {
         color: #fff;
         font-size: 50px;
         margin-bottom: 20px;
