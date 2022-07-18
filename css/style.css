@@ -132,6 +132,48 @@ header {
   .botonForm:hover {
     background-color: #bd9b71; }
 
+.redesSociales {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: #bf8339; }
+
+.link-ig {
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: #c92d8f;
+  margin-bottom: 20px;
+  transition: all 0.3s; }
+  .link-ig:hover {
+    color: white;
+    background-color: transparent; }
+
+.link-whatsapp {
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: #52D95B;
+  margin-bottom: 20px;
+  transition: all 0.3s; }
+  .link-whatsapp:hover {
+    color: white;
+    background-color: transparent; }
+
+.link-email {
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: #F23838;
+  margin-bottom: 20px;
+  transition: all 0.3s; }
+  .link-email:hover {
+    color: white;
+    background-color: transparent; }
+
 .tituloPaginaPoliticas {
   font-size: 4rem;
   font-weight: 900;

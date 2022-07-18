@@ -17,5 +17,34 @@
       background-color: #bd9b71;
     }
   }
+
+  .redesSociales {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: $colorPrincipal;
+  }
   
  
+  $redesSociales: (
+    ig:#c92d8f,
+    whatsapp: #52D95B,
+    email: #F23838,
+  );
+
+  @each $nombre, $color in $redesSociales {
+    .link-#{$nombre} {
+      padding: 10px;
+      border-radius: 15px;
+      color: white;
+      text-decoration: none;
+      background-color: $color;
+      margin-bottom: 20px;
+      transition: all 0.3s;
+
+      &:hover {
+        color: white;
+        background-color: transparent;
+      }
+  }
+}
