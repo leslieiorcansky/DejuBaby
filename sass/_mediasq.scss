@@ -1,6 +1,6 @@
 
 @media (max-width: 1032px) {
-    .productosInicio {
+    .productosInicioPlus {
       grid-template-columns: 1fr;
     }
   }
@@ -39,12 +39,13 @@
       font-size: 50px;
       height: 100px;
     }
+
+    .ropa {
+        grid-template-columns: 1fr;
+    }
   }
   
   @media (max-width: 468px) {
-    .sacarFoto {
-      display: none;
-    }
     .tituloPaginaPoliticas {
       font-size: 50px;
     }
@@ -58,11 +59,24 @@
     .tituloPaginaContacto {
       margin-bottom: 10px;
     }
+
+    .productos {
+      font-size: 40px;
+    }
   }
   
   @media (max-width: 345px) {
     .tituloPaginaContacto {
       font-size: 40px;
+
+    .ropa {
+      padding: 5px;
+      
+      &h1 {
+        font-size: 5px;
+        margin: 5px;
+      }
+    }
     }
   }
   

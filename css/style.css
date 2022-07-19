@@ -67,16 +67,30 @@ header {
   width: 100px;
   height: 100px; }
 
-.productos {
-  font-family: "Kage Thin";
-  font-weight: bold;
-  font-size: 5rem;
-  color: transparent;
-  -webkit-text-stroke: 1px #bf8339;
-  margin-top: 50px; }
-  .productosInicio {
-    justify-content: center;
-    background-color: linear-gradient(60deg, #b9d8cb, #e2e8f0); }
+.ropa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 100px;
+  padding: 40px;
+  background-color: #dcdcdc;
+  margin-top: 40px; }
+  .ropa img {
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s; }
+    .ropa img:hover {
+      transform: scale(1.2); }
+  .ropaInicio {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 25px;
+    color: #60a685;
+    margin-top: 50px;
+    align-items: center; }
+    .ropaInicioPlus {
+      justify-content: center;
+      background-color: linear-gradient(60deg, #b9d8cb, #e2e8f0); }
 
 .cajitaProductos {
   transition: transform 0.3s; }
@@ -110,6 +124,8 @@ header {
         background-color: #bf935e; }
 
 .pagoEfectivoImg {
+  width: 100%;
+  max-width: 600px;
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
   transition: transform 0.3s; }
@@ -262,7 +278,7 @@ header {
   justify-content: center; }
 
 @media (max-width: 1032px) {
-  .productosInicio {
+  .productosInicioPlus {
     grid-template-columns: 1fr; } }
 
 @media (max-width: 1000px) {
@@ -286,11 +302,11 @@ header {
     margin-top: 40px; }
   .tituloPaginaContacto {
     font-size: 50px;
-    height: 100px; } }
+    height: 100px; }
+  .ropa {
+    grid-template-columns: 1fr; } }
 
 @media (max-width: 468px) {
-  .sacarFoto {
-    display: none; }
   .tituloPaginaPoliticas {
     font-size: 50px; } }
 
@@ -299,8 +315,15 @@ header {
     font-size: 50px;
     font-weight: 600; }
   .tituloPaginaContacto {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .productos {
+    font-size: 40px; } }
 
 @media (max-width: 345px) {
   .tituloPaginaContacto {
-    font-size: 40px; } }
+    font-size: 40px; }
+    .tituloPaginaContacto .ropa {
+      padding: 5px; }
+      .tituloPaginaContacto .ropah1 {
+        font-size: 5px;
+        margin: 5px; } }
