@@ -40,12 +40,9 @@
   }
 
   & a img {
-    border: #bf935e solid 2px;
+    border: $colorSecundario solid 2px;
   }
 }
-
-
-
 
 .pagoEfectivo {
   background-image: linear-gradient(45deg, #bfbfbf, #bf935e);
@@ -76,7 +73,7 @@
       transition: background-color 0.3s;
 
       &:hover {
-        background-color: #bf935e;
+        background-color: $colorSecundario;
       }
     }
   }

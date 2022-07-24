@@ -29,4 +29,27 @@
       gap: 50px;
     }
   }
+
+  .btn-flecha {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    right: 30px;
+    bottom: 150px;
+    background: $colorPrincipal;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3) ;
+    z-index:100;
+    transition: 0.3s;
+
+    &:hover {
+      text-decoration: none;
+      color: $colorSecundario;
+      background-color: #fff;
+    }
+  }
   

@@ -14,7 +14,7 @@
 
       & p {
         @extend .footerBase;
-        color: #bf935e;
+        color: $colorSecundario;
         font-style: italic;
       }
     }
